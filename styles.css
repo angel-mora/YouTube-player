@@ -97,4 +97,154 @@ body {
 
 /* cp 2 am */
 
+h1.video-title {
+  margin: 0;
+  font-weight: lighter;
+}
 
+.video-info {
+  padding-top: 15px;
+}
+
+.video-info-more {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.video-info-more p {
+  color: #aaa;
+}
+
+.video-options {
+  display: flex;
+}
+
+.video-options p {
+  color: #aaa;
+  font-size: 1.1rem;
+  font-weight: 500;
+  padding-right: 0.8rem;
+}
+
+.video-likes-dislikes {
+  display: flex;
+  border-bottom: 2px gray solid;
+}
+
+.description {
+  display: grid;
+  grid-template-columns: 5% 2fr 1fr;
+  grid-column-gap: 1em;
+  /* grid-auto-rows: minmax(50px, auto); */
+  padding-top: 10px;
+}
+
+.description h4 {
+  font-size: 13px;
+  color: #aaaaaa;
+}
+
+.author p {
+  margin: 0;
+}
+
+.author h5 {
+  margin: 0;
+  color: #aaa;
+}
+
+p.author-video-description {
+  margin: 20px 0 0 0;
+}
+
+.author-image img {
+  border-radius: 100%;
+  height: 48px;
+  width: 48px;
+}
+
+.subscribe-btn {
+  justify-content: flex-end;
+}
+
+.subscribe-btn button {
+  height: 36px;
+  width: 110px;
+  font-size: 14px;
+  color: #fff;
+  background-color: #cc0000;
+  border: none;
+  text-transform: uppercase;
+  float: right;
+  border-radius: 2px;
+}
+
+.comment-section {
+  display: flex;
+}
+
+.comment-section p:nth-child(1) {
+  padding-right: 50px;
+}
+
+.comment-section img {
+  padding-right: 10px;
+}
+
+.comment-section p:nth-last-child(1) {
+  color: #aaa;
+}
+
+#User-comments {
+  display: grid;
+  grid-template-columns: 5% 3fr;
+  grid-column-gap: 1em;
+  margin: 24px 0 38px 0;
+}
+
+.comments-author-img img {
+  border-radius: 100%;
+  height: 48px;
+  width: 48px;
+}
+
+#Comments {
+  display: grid;
+  grid-template-columns: 5% 3fr;
+  grid-column-gap: 1em;
+  margin-bottom: 16px;
+}
+
+.com-author {
+  display: flex;
+  padding-bottom: 10px;
+}
+
+.com-author-comment {
+  padding-bottom: 10px;
+}
+
+.comments-author p {
+  margin: 0;
+}
+
+.com-author p:nth-child(2) {
+  padding-left: 4px;
+  color: #aaa;
+}
+
+.comment-likes-dislikes {
+  display: flex;
+  align-items: center;
+}
+
+.comment-likes-dislikes img {
+  padding-right: 0.8em;
+}
+
+.comment-likes-dislikes p {
+  padding-right: 2em;
+}
+
+/* cp 3 am */
