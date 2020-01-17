@@ -1,0 +1,426 @@
+body {
+    background-color: #1f1f1f;
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+}
+
+iframe {
+    border: none;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 1em;
+    padding: 6rem;
+
+}
+
+.content {
+    grid-column: 2 / 3;
+    grid-row: 1 / 5;
+}
+
+
+
+.recommended-videos {
+    grid-column: 3 / 4;
+    grid-row: 1 / 5;
+}
+
+.container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 3.5rem;
+    background-color: #282828fa;
+    z-index: 1;
+}
+
+.btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.menu-btn {
+    margin: 0 1em 0 1em;
+}
+
+
+/* cp 1 ak */
+
+
+.home-btn img {
+    /* display: flex; */
+    /* align-items: center; */
+    height: 3.8rem;
+    padding-right: 40px;
+}
+
+.search-bar {
+    margin: 0 auto;
+    width: 700px;
+    max-width: 700px;
+    display: flex;
+}
+
+.search-input {
+    width: 100%;
+    height: 28px;
+    border-radius: 2px;
+    font-size: 18px;
+    padding-left: 15px;
+}
+
+.search-btn {
+    width: 4.5rem;
+    border-radius: 2px;
+}
+
+.user-options {
+    display: flex;
+}
+
+.sign-in {
+    border: 2px #3ea6ff solid;
+    display: flex;
+    align-items: center;
+    color: #3ea6ff;
+    height: 40px;
+    min-width: 100px;
+}
+
+.sign p {
+    font-size: 4rem;
+}
+
+/* cp 2 am */
+
+h1.video-title {
+    margin: 0;
+    font-weight: lighter;
+}
+
+.video-info {
+    padding-top: 15px;
+}
+
+.video-info-more {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.video-info-more p {
+    color: #aaa;
+}
+
+.video-options {
+    display: flex;
+}
+
+.video-options p {
+    color: #aaa;
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding-right: 0.8rem;
+}
+
+.video-likes-dislikes {
+    display: flex;
+    border-bottom: 2px gray solid;
+}
+
+.description {
+    display: grid;
+    grid-template-columns: 5% 2fr 1fr;
+    grid-column-gap: 1em;
+    /* grid-auto-rows: minmax(50px, auto); */
+    padding-top: 10px;
+}
+
+.description h4 {
+    font-size: 13px;
+    color: #aaaaaa;
+}
+
+.author p {
+    margin: 0;
+}
+
+.author h5 {
+    margin: 0;
+    color: #aaa;
+}
+
+p.author-video-description {
+    margin: 20px 0 0 0;
+}
+
+.author-image img {
+    border-radius: 100%;
+    height: 48px;
+    width: 48px;
+}
+
+.subscribe-btn {
+    justify-content: flex-end;
+}
+
+.subscribe-btn button {
+    height: 36px;
+    width: 110px;
+    font-size: 14px;
+    color: #fff;
+    background-color: #cc0000;
+    border: none;
+    text-transform: uppercase;
+    float: right;
+    border-radius: 2px;
+}
+
+.comment-section {
+    display: flex;
+}
+
+.comment-section h4 {
+    padding-right: 50px;
+}
+
+.comment-section img {
+    padding-right: 10px;
+}
+
+.comment-section p:nth-last-child(1) {
+    color: #aaa;
+}
+
+#User-comments {
+    display: grid;
+    grid-template-columns: 5% 3fr;
+    grid-column-gap: 1em;
+    margin: 24px 0 38px 0;
+}
+
+.comments-author-img img {
+    border-radius: 100%;
+    height: 48px;
+    width: 48px;
+}
+
+.comments {
+    display: grid;
+    grid-template-columns: 5% 3fr;
+    grid-column-gap: 1em;
+    margin-bottom: 16px;
+}
+
+.com-author {
+    display: flex;
+    padding-bottom: 10px;
+}
+
+.com-author-comment {
+    padding-bottom: 10px;
+}
+
+.comments-author p {
+    margin: 0;
+}
+
+.com-author p:nth-child(2) {
+    padding-left: 4px;
+    color: #aaa;
+}
+
+.comment-likes-dislikes {
+    display: flex;
+    align-items: center;
+}
+
+.comment-likes-dislikes img {
+    padding-right: 0.8em;
+}
+
+.comment-likes-dislikes p {
+    padding-right: 2em;
+}
+
+/* cp 3 am */
+
+
+.more-info {
+    display: flex;
+    align-items: center;
+
+}
+
+.more-info p {
+    padding-left: 0.8em;
+}
+
+.blue-text {
+    color: #3ea6ff;
+}
+
+
+.rec-video-thumbnails p {
+    margin: 0 0 14px 0;
+}
+
+#reco-vids {
+    display: flex;
+}
+
+.reco-vids2 {
+    display: flex;
+    margin-bottom: 0.4em;
+}
+
+/* .rec-video-thumbnails {
+  grid-row: 1;
+} */
+
+/* cp 4 ak */
+
+
+.thumbnail-description {
+    padding-left: 1em;
+
+}
+
+.thumbnail-description p {
+    margin: 0;
+}
+
+
+.thumbnail-description p:nth-of-type(1) {
+    margin-bottom: 0.4em;
+    height: 48px;
+    width: 185px;
+    overflow: auto;
+}
+
+.thumbnail-description p:nth-of-type(2) {
+    margin-bottom: 0.4em;
+
+}
+
+.autoplay-toggle p:nth-of-type(1) {
+    height: initial;
+    width: initial;
+    margin: initial;
+}
+
+.views p {
+    margin: 0.3em 0 0 0;
+    color: #aaa;
+}
+
+.views p:nth-of-type(1) {
+    height: 18px;
+}
+
+hr {
+    grid-column: 3 / 4;
+    margin-bottom: 1em;
+}
+
+
+.autoplay-toggle {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 14px;
+}
+
+.autoplay-toggle p {
+    justify-content: right;
+}
+
+.toggle-switch {
+    padding-left: 0.5em;
+}
+
+/* for the autoplay slider  */
+
+/* The switch - the box around the slider */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 14px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+/* The slider */
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 20px;
+    width: 20px;
+    left: 1px;
+    bottom: -3px;
+    background-color: white;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+}
+
+input:checked+.slider {
+    background-color: #2196f3;
+}
+
+input:focus+.slider {
+    box-shadow: 0 0 1px #2196f3;
+}
+
+input:checked+.slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+/* aside */
+
+/* Inset, by Dan Eden */
+
+hr {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+/* cp 5 am */
