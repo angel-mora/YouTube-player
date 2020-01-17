@@ -214,7 +214,7 @@ p.author-video-description {
     width: 48px;
 }
 
-#Comments {
+.comments {
     display: grid;
     grid-template-columns: 5% 3fr;
     grid-column-gap: 1em;
