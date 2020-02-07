@@ -2,7 +2,31 @@
 
 Microverse first project.
 
-# day 1 work accomplished
+## Built with
+
+- Html and CSS
+
+👤 **Aulbourn Knowles**
+
+- [Github](https://github.com/aulbytj)
+- [Twitter](https://twitter.com/aulbytj)
+- [Linkedin](https://linkedin.com/in/aulbourn-knowles-b9971672)
+
+👤 **Angel Momaa**
+
+- [Github](https://github.com/angel-mora)
+- [Twitter](https://twitter.com/angelmoma_)
+- [Linkedin](https://linkedin.com/angelmoma)
+
+### Setup
+
+clone the repository to your machine, navigate into the folder and open the index.html document using your favotite browser
+
+### Usage
+
+you can open the code in your favorite code editor and make changes as you wish
+
+## Day 1 work accomplished
 - Read pathwright content
 - Went over git commands
 - Created GitHub repo
@@ -10,27 +34,27 @@ Microverse first project.
 - Created the basic HTML structure for the website clone
 - implemented font icons
 
-# day 2 work accomplished
+## Day 2 work accomplished
 - Working in nav bar and comments section
 - Readings on CSS Grid and Flexbox
 
-# day 3 work accomplished
+## Day 3 work accomplished
 - Reviewed some CSS content
 - Improved navbar
 
-# day 4 work accomplished
+## Day 4 work accomplished
 - Submitted the code
 - Reviewed on GitHub flow
 - Re-do the whole project with proper flow
 
-# day 5
+## Day 5
 - HTML linters
 - Added missing info from README.md
 - Resubmitted code for review
 
 We also created some notes on CSS and HTML best practices.
 
-# Notes
+## Notes
 
 ## CSS Best practices
 
